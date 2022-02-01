@@ -6,7 +6,7 @@ void Heapify(vector<int>& heap,int curr,int size)
     int largest = curr;
 
     int left = 2*curr+1; //left child
-    int right = 2*curr+1; //right child
+    int right = 2*curr+2; //right child
 
     if(left<size and heap[left]>heap[largest])
     {
