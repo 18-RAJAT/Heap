@@ -4,7 +4,7 @@ using namespace std;
 int LastStoneWeight(vector<int>& stones)
 {
     priority_queue<int>max_heap;
-    int n = stones.size();
+    int n=stones.size();
 
     for(int i=0;i<n;++i)
     {
